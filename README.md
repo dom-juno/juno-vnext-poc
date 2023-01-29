@@ -1,3 +1,46 @@
+# React Native App with Capacitor
+
+## To run website
+* `npm run start`
+
+#
+## To run ios
+* `npm run build`
+* `npx cap sync`
+* `npm cap open ios -> (opens in Xcode)`
+* `run simulator`
+
+#
+## To run android
+* `npm run build`
+* `npx cap sync`
+* `npx cap run android` -> Choose a target
+
+#
+##
+### Full Install Steps
+* `npm install -g create-react-app`
+* `create-react-app juno`
+* `cd juno`
+* `npm install`
+* `npm install --save @capacitor/cli @capacitor/core`
+* `npx cap init react-capacitor-example com.example.reactCapacitor`
+
+```
+: app name - Juno
+: package id - com.junolive
+```
+* `npm run build`
+* `npx cap add ios`
+* `npx cap add android`
+* `npx cap copy`
+
+
+### Extras
+* `npm install capacitor-plugin-safe-area`
+
+#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
