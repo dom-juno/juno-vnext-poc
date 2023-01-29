@@ -1,0 +1,6 @@
+{
+  "appId": "com.junolive",
+  "appName": "juno",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
